@@ -1,0 +1,41 @@
+body {
+	margin: 20px;
+}
+
+input, textarea {
+	display: block;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 300px;
+}
+
+button {
+	padding: 10px 15px;
+}
+
+.product {
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.review {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	gap: 10px;
+}
+
+#reviewsList {
+	width: 100%;
+	max-width: 300px;
+	display: inline-flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.reviewContainer {
+	flex-direction: column;
+	gap: 10px;
+}
